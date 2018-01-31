@@ -1,5 +1,9 @@
 const array = ["apple", "banana", "cherry"];
 
+function callback(fruit) {
+  return "Mmm, ${fruit}!!!"
+}
+
 function doToElementsInArray(array, callback) {
   array.forEach(callback);
 }
